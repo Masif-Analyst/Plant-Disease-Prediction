@@ -14,33 +14,3 @@ A web-based application for detecting plant leaf diseases using a Convolutional 
    ```bash
    git clone https://github.com/Masif-Analyst/Plant-Disease-Prediction.git
 
-Plant-Disease-Prediction/
-│
-├── data/
-│   ├── dataset_info.md             # Description of PlantVillage dataset and preprocessing steps
-│   └── sample_images/             # Sample leaf images for testing (subset of PlantVillage)
-│
-├── models/
-│   ├── trained_model.h5           # Trained CNN model file
-│   └── model_architecture.json    # JSON file describing the CNN architecture
-│
-├── src/
-│   ├── preprocessing.py           # Image preprocessing functions (resizing, normalization, augmentation)
-│   ├── model_training.py          # Script for training the CNN model
-│   ├── prediction.py              # Script for disease prediction from images
-│   └── app.py                    # Streamlit web application script
-│
-├── tests/
-│   ├── test_preprocessing.py      # Unit tests for preprocessing functions
-│   ├── test_prediction.py         # Unit tests for prediction functions
-│   └── test_data/                # Test images and expected outputs
-│
-├── docs/
-│   ├── Final_Report.pdf           # PDF version of the project report
-│   ├── diagrams/                 # UML, DFD, and other diagrams (e.g., image4.jpeg, image5.jpeg, etc.)
-│   └── user_manual.md            # User guide for running the application
-│
-├── requirements.txt               # Python dependencies
-├── README.md                     # Main repository documentation
-├── LICENSE                       # License file (e.g., MIT License)
-└── .gitignore                    # Git ignore file for excluding unnecessary files
